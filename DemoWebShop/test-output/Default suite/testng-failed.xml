@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="emendation.ClickOnDisabledElement">
+      <class name="testyantra.ChromeClass">
         <methods>
-          <include name="javascriptClick"/>
+          <include name="chromeTest"/>
         </methods>
-      </class> <!-- emendation.ClickOnDisabledElement -->
+      </class> <!-- testyantra.ChromeClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

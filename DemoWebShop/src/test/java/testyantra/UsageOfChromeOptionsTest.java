@@ -10,6 +10,7 @@ public class UsageOfChromeOptionsTest {
 	
 	    @Test
 	    public void chromeOptions() {
+	    
 		ChromeOptions options = new ChromeOptions();
 		//options.addArguments("--disable-notifications");
 		//options.addArguments("start-maximized");

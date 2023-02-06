@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 public class DoubleClick1Test {
 	
 	
-	@Test
+	@Test(groups = "smoke") //(invocationCount = 2, threadPoolSize = 2) 
 	public void doubleClick() {
-		
+		//System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://demo.guru99.com/test/simple_context_menu.html");

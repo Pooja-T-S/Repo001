@@ -22,7 +22,7 @@ public class Login {
 		driver.findElement(By.xpath("//input[@value='Log in']")).click();
 	}
 	
-	@DataProvider(name = "testData")
+	@DataProvider(name = "testData", parallel = true)
 	public Object[][] testData() throws EncryptedDocumentException, IOException {
 		return ReadingMultipleDataFromExcel.readExcel("testdata");
 	}

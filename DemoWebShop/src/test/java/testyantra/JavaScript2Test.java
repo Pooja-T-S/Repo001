@@ -23,9 +23,9 @@ public class JavaScript2Test {
 		//driver.quit();
 	}
 	
-//	@Test
-//	public void example() {
-//		System.out.println("Hello");
-//	}
+	@Test
+	public void example() {
+		System.out.println("Hello");
+	}
 
 }

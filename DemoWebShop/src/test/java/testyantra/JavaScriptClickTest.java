@@ -22,9 +22,9 @@ public class JavaScriptClickTest {
 	}
 	
 	
-//	@Test
-//	public void demo() {
-//		System.out.println("Demo");
-//	}
+	@Test
+	public void demo() {
+		System.out.println("Demo");
+	}
 
 }

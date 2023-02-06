@@ -3,13 +3,17 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testngpractice.JavaScript2">
+      <class name="testyantra.JavaScript2Test">
       <methods>
-      <include name="example"></include>
+      <include name="disableTextField"></include>
       </methods>
       </class>
-      <class name="testngpractice.JavaScriptClick"/>
-      <class name="testngpractice.DoubleClick1"/>
+      <class name="testyantra.JavaScriptClickTest">
+      <methods>
+      <exclude name="demo"></exclude>
+      </methods>
+      </class>
+      <class name="testyantra.DoubleClick1Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -8,9 +8,9 @@
   </run>
   </groups>
     <classes>
-      <class name="testngpractice.JavaScript2"/>
-      <class name="testngpractice.JavaScriptClick"/>
-      <class name="testngpractice.DoubleClick1"/>
+      <class name="testyantra.JavaScript2Test"/>
+      <class name="testyantra.JavaScriptClickTest"/>
+      <class name="testyantra.DoubleClick1Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
